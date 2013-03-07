@@ -1,0 +1,77 @@
+/* Pages on domain: www.hnsearch.com */
+
+/* Main table */
+#layout {
+  max-width: 50%;
+  background-color: transparent;
+}
+#layout-header, #layout-body, .toolbar-wrapper {
+  background-color: transparent;
+}
+.toolbar-logo-ycombinator { background-color: #ff8000; }
+*, input, textarea { font-size: 14px; line-height: 18px; }
+
+/* Content */
+body > center > table > tbody > tr > td > table:not([style]) { margin-top: 36px; }
+a, .content-story-title {
+  color: #08c; text-decoration: none;
+}
+.content-result-subheader a[href*='http://news.ycombinator.com/item?id=']:last-of-type { 
+  display: block; color: #08c !important; font-size: 13px;
+  margin-bottom: 10px;
+}
+.content-story-title { font-size: 15px; }
+a:visited, .content-story-title:visited {
+  color: #666;
+}
+.content-result-subheader, .content-result-subheader * {
+  font-size: 12px;
+}
+td.content-comment-layout-bodycol { vertical-align: middle; }
+
+/* Upvote */
+.content-story-layout-votecol img, .content-comment-layout-votecol img { display: none; }
+.content-story-layout-votecol:before, .content-comment-layout-votecol:before {
+  content: "▲"; font-size: 11px; color: #ff8000;
+      
+  width: 20px; height: 20px; line-height: 20px;
+  background: #f0f0f0; display: block;
+  border-radius: 20px; position: relative;
+  text-align: center; margin: 5px;
+
+}
+/* Search form */
+form[action='http://www.hnsearch.com/search#request/all']:hover input {
+  z-index: 1;
+}
+form[action='http://www.hnsearch.com/search#request/all'] {
+  position: absolute; top: 40px; width: 50%; text-align: right; font-size: 12px;
+}
+form[action='http://www.hnsearch.com/search#request/all'] input { 
+  width: 100%; position: relative; z-index: -1; margin-left: -50px;
+} 
+form[action='http://www.hnsearch.com/search#request/all'] input:focus {
+  border: 1px solid #ff8000; z-index: 1;
+}
+    
+/* input */
+textarea, input[type=text], select {
+  border: 1px solid #ddd; padding: 6px;
+  width: 100%; border-radius: 2px; -webkit-appearance: none; 
+}
+select { border-right: 10px solid #d0d0d0; width: 10%; }
+textarea:focus, input:focus, select:focus {
+  outline: none; box-shadow: none;
+}
+input[type=submit] {
+  border: 0; border-radius: 2px; padding: 6px 10px; font-size: 12px;
+  background: #449966; color: white; text-transform: uppercase;
+}
+    
+/* General form tables */
+form table td:first-of-type { text-transform: capitalize; line-height: 30px; font-size: 13px; }
+    
+/* comments */
+table td.default ~ td {
+  background-color: #ff8000;
+}

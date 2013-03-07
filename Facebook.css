@@ -1,0 +1,15 @@
+/* Pages on domain: www.hnsearch.com */
+/* I hide ads promoted posts manually, and I hide the evil/stupid ticker as well */
+
+.ego_section {text-indent:-9999px}
+.ego_section img {display:none;text-indent:-9999px}
+.ego_unit {display:none;text-indent:-9999px}
+.tlTxFe {font-size:13px !important}
+.tlTxFe div {font-size:13px !important;}
+.ticker_container {visibility: hidden}
+#pagelet_ticker {height: 0 !important}
+li[data-ft*='"ei":'] { opacity: 0.2 !important; display: none !important;  } 
+li[data-gt*='inferred":"1'] { display: none } 
+.UIIntentionalStream_Content li.uiStreamStory:not([aria-haspopup]) { opacity:0.2; display: none !important;  }
+#rightCol, #adsNav { display: none; } 
+#contentArea { box-sizing: border-box; width: 100% !important; }
