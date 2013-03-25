@@ -62,18 +62,17 @@ body > center > table > tbody > tr > td > table > tbody > tr > td.subtext * {
 
 /* Upvote */
 a[id*='up_'] img { display: none; }
-.title + td > center > img, td > center > font {
+.title + td > center > img { display: none; }
+td > center > font {
   width: 20px; height: 20px; line-height: 20px;
-  background: #f0f0f0; display: block;
+  background: #ff8000; display: block;
   border-radius: 20px; position: relative;
   text-align: center; margin: 5px;
   overflow: hidden;
 }
+td > center > font + br { display: none; }
 .title + td > center > img:before, td > center > font:before {
   content: "▲"; font-size: 11px; color: #fff !important; display: block;
-}
-a[id*='up_']:before {
-  content: "▲"; font-size: 11px; color: #ff8000;
 }
 @-webkit-keyframes upup {
   from { line-height: 20px; text-shadow: 0 8px 0 rgba(0,0,0,0.4) }
