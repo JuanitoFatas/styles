@@ -7,8 +7,8 @@ YEAH.
 ## Preview HackerNews style
 ![Hacker News](HackerNews.png)
 
-## Disclaimer
-If something broke, remove it yourself or [tweet](http://twitter.com/muanchiou) to see if I can be bothered.
+## RAHHHH
+If something broke, [tweet](http://twitter.com/muanchiou) to me I might have fixed it!
 
 ## How?
 [USE THIS AWESOME PLUGIN TO ADD STYLES!](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)

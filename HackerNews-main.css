@@ -1,5 +1,16 @@
 /* Pages on domain: news.ycombinator.com */
 
+/* Highlighting people you care by changing the user id! */
+a[href='user?id=muan'],
+a[href='user?id=muna'] {
+  font-weight: bold; 
+  color: #fff !important;
+  padding: 1px 3px !important; border-radius: 3px;
+  background-color: #ff8000 !important;
+}
+
+font[color='#ffffff'] { display: none; }
+
 /* Main table */
 body > center > table {
   max-width: 50%;
@@ -51,6 +62,16 @@ body > center > table > tbody > tr > td > table > tbody > tr > td.subtext * {
 
 /* Upvote */
 a[id*='up_'] img { display: none; }
+.title + td > center > img, td > center > font {
+  width: 20px; height: 20px; line-height: 20px;
+  background: #f0f0f0; display: block;
+  border-radius: 20px; position: relative;
+  text-align: center; margin: 5px;
+  overflow: hidden;
+}
+.title + td > center > img:before, td > center > font:before {
+  content: "▲"; font-size: 11px; color: #fff !important; display: block;
+}
 a[id*='up_']:before {
   content: "▲"; font-size: 11px; color: #ff8000;
 }
@@ -67,16 +88,16 @@ a[id*='up_'] {
 }
 
 /* Search form */
-form[action='http://www.hnsearch.com/search#request/all']:hover input {
+form[action='//www.hnsearch.com/search#request/all']:hover input {
   z-index: 1;
 }
-form[action='http://www.hnsearch.com/search#request/all'] {
+form[action='//www.hnsearch.com/search#request/all'] {
   position: absolute; top: 40px; width: 50%; text-align: right; font-size: 12px;
 }
-form[action='http://www.hnsearch.com/search#request/all'] input { 
+form[action='//www.hnsearch.com/search#request/all'] input { 
   width: 100%; position: relative; z-index: -1; margin-left: -50px;
 } 
-form[action='http://www.hnsearch.com/search#request/all'] input:focus {
+form[action='//www.hnsearch.com/search#request/all'] input:focus {
   border: 1px solid #ff8000; z-index: 1;
 }
     
