@@ -13,7 +13,7 @@ font[color='#ffffff'] { display: none; }
 
 /* Main table */
 body > center > table {
-  max-width: 50%;
+  width: 50%;
   background-color: transparent;
 }
 *, input, textarea { font-size: 14px; line-height: 18px; }
