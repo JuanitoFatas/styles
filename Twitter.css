@@ -1,0 +1,9 @@
+/* Pages on domain: www.twitter.com */
+/* I don't need a dashboard */
+
+#page-container.wrapper-profile .dashboard, #page-container.wrapper-home .dashboard {
+  display:none;
+}
+#page-container.wrapper-profile, #page-container.wrapper-home {
+  width: 521px;
+}
