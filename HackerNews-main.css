@@ -1,4 +1,17 @@
-/* Pages on domain: news.ycombinator.com */
+/*                                                                                          */
+/* Pages on domain: news.ycombinator.com                                                    */
+/*                                                                                          */
+/* To use this                                                                              */
+/*                                                                                          */
+/* 1. Download Chrome plugin "Stylish" or equivalent to apply css styles on webpages        */
+/*    https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe    */
+/*                                                                                          */
+/* 2. Add this css as one of the styles                                                     */
+/*                                                                                          */
+/* 3. Set to "URLs on the domain: news.ycombinator.com"                                     */
+/*                                                                                          */
+/* Note there is a separate stylesheet for HN search in this repository as well!            */
+
 
 /* Highlighting people you care by changing the user id! */
 a[href='user?id=muan'],
