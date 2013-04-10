@@ -8,6 +8,15 @@ a[href='user?id=muna'] {
   padding: 1px 3px !important; border-radius: 3px;
   background-color: #ff8000 !important;
 }
+/* Highlighting domains! */
+a[href*='muan.co'],
+a[href*='petenixey.com'],
+a[href*='robertheaton.com'],
+a[href*='jshakespeare.com'] {
+  color: #222 !important;
+  background-color: #ffffe0 !important;
+  padding: 2px 1px !important; border-radius: 3px;
+}
 
 font[color='#ffffff'] { display: none; }
 
