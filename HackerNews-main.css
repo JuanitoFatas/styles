@@ -11,6 +11,8 @@
 /* 3. Set to "URLs on the domain: news.ycombinator.com"                                     */
 /*                                                                                          */
 /* Note there is a separate stylesheet for HN search in this repository as well!            */
+/* Made by @muanchiou (muan.co) with funny noises in London                                 */
+/*                                                                                          */
 
 
 /* Highlighting people you care by changing the user id! */
@@ -34,8 +36,17 @@ a[href*='jshakespeare.com'] {
 font[color='#ffffff'] { display: none; }
 
 /* Main table */
+@media (max-width: 600px) {
+  body > center > table {
+    width: 100% !important;
+  }
+  form[action*='//www.hnsearch.com/search#request/all'] {
+    top: 50px !important;
+    width: 95% !important;
+  }
+}
 body > center > table {
-  width: 50%;
+  width: 600px;
   background-color: transparent;
 }
 *, input, textarea { font-size: 14px; line-height: 18px; }
@@ -113,7 +124,7 @@ form[action='//www.hnsearch.com/search#request/all']:hover input {
   z-index: 1;
 }
 form[action='//www.hnsearch.com/search#request/all'] {
-  position: absolute; top: 40px; width: 50%; text-align: right; font-size: 12px;
+  position: absolute; top: 40px; width: 600px; text-align: right; font-size: 12px;
 }
 form[action='//www.hnsearch.com/search#request/all'] input { 
   width: 100%; position: relative; z-index: -1; margin-left: -50px;
