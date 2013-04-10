@@ -38,8 +38,17 @@ a[href*='muan.co'] {
 font[color='#ffffff'] { display: none; }
 
 /* Main table */
+@media (max-width: 600px) {
+  body > center > table {
+    width: 100% !important;
+  }
+  form[action*='//www.hnsearch.com/search#request/all'] {
+    top: 50px !important;
+    width: 95% !important;
+  }
+}
 body > center > table {
-  width: 50%;
+  width: 600px;
   background-color: transparent;
 }
 *, input, textarea { font-family: helvetica, arial, sans-serif; font-size: 14px; line-height: 18px; }
@@ -120,7 +129,7 @@ form[action*='//www.hnsearch.com/search#request/all']:hover input {
   z-index: 1;
 }
 form[action*='//www.hnsearch.com/search#request/all'] {
-  position: absolute; top: 40px; width: 50%; text-align: right; font-size: 12px;
+  position: absolute; top: 40px; width: 600px; text-align: right; font-size: 12px;
 }
 form[action*='//www.hnsearch.com/search#request/all'] input { 
   width: 100%; position: relative; z-index: -1; margin-left: -50px;

@@ -20,7 +20,26 @@ $(document).ready(function() {
       $("[rel*=toggle]").remove()
     }
   })
+  $.each($("a[id]"), function(index, ele) {
+      return $(ele).click(function(e) {
+        e.stopImmediatePropagation();
+        return _gaq.push(["_trackEvent", "Clicks", "clicked on " + e.target.id]);
+      });
+    });
 })
+</script>
+<script type='text/javascript'>
+  //<![CDATA[
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21332781-7']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
 </script>
 <style type="text/css">
   #mu-banner {
@@ -45,7 +64,7 @@ $(document).ready(function() {
 </style>
 </head>
 <body>
-<a href="https://github.com/muan/styles/blob/master/HackerNews-main.css"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://muan.co/images/fmog.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/muan/styles/blob/master/HackerNews-main.css" id="FORK"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://muan.co/images/fmog.png" alt="Fork me on GitHub"></a>
 <div id="mu-banner">
 <a href="#" id="toggle">Toggle theme</a>
 </div>
