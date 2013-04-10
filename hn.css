@@ -1,5 +1,5 @@
 /* Feautures, not part of stylesheer */
-center *:not(#toggle) { transition: all 1s; -webkit-transition: all 1s; }
+center *:not(#toggle) { transition: all 1s; -webkit-transition: all 1s; -moz-transition: all 1s; }
 .how { opacity: 1; }
 .how-in-detail a { color: #fff; text-decoration: underline; }
 .how-in-detail h4 { color: #fff; }
