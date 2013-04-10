@@ -1,24 +1,5 @@
 /* Feautures, not part of stylesheer */
 center *:not(#toggle) { transition: all 1s; -webkit-transition: all 1s; }
-#post-hl:after, #user-hl:after, #search-hl:before, [id*="up_"]:after {
-  font-size: 13px !important; font-weight: bold; line-height: 1em;
-  display: block; display: inline-block; background: rgba(0,0,0,0.7); color: #fff;
-  padding: 4px 9px; border-radius: 3px; margin: -4px 7px;
-  position: absolute; white-space: nowrap;
-}
-#post-hl:hover:after {
-  content: "Highlighting post depending on domain via CSS!";
-}
-#user-hl:hover:after {
-  content: "Highlighting user depending on user id via CSS!";
-}
-input:hover + #search-hl:before {
-  content: "Bringing search form to the top!";
-  margin: 2px -50%;
-}
-[id*="up_"]:hover:after {
-  content: "Big & moving upvote button!";
-}
 .how { opacity: 1; }
 .how-in-detail a { color: #fff; text-decoration: underline; }
 .how-in-detail h4 { color: #fff; }
